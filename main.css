@@ -1,0 +1,50 @@
+.wrapper{
+    max-width: 1200px;
+    margin: 60px auto;
+    overflow: hidden;
+}
+
+.item{
+    margin: 40px 15px;
+    padding: 15px;
+}
+body{
+    background-color: #ccc;
+}
+
+.item1{
+    background-image: url(ava7patterns_pattern_1747.png) ;
+}
+.item2{
+    background-image: url(1.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: 0 bottom;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+}
+.item3{
+    background-image: url(am.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+} 
+.item4{
+    background: rgb(80,151,157);
+    background: linear-gradient(47deg, rgba(80,151,157,1) 10%, rgba(165,228,219,1) 40%, rgba(244,193,199,1) 73%, rgba(250,159,169,1) 97%);
+}
+.item5{
+    border-radius: 84px;
+background: linear-gradient(45deg, #cacaca, #f0f0f0);
+box-shadow:  17px -17px 28px #c1c1c1,
+        -17px 17px 28px #ffffff;
+}
+.item6{
+    /* From https://css.glass */
+background: rgba(180, 242, 250, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.3px);
+-webkit-backdrop-filter: blur(5.3px);
+border: 1px solid rgba(180, 242, 250, 0.28);
+}
